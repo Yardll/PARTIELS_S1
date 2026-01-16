@@ -7,12 +7,16 @@ int main(){
   int velosDispos = 20;
   int capacite= 20;
   int choix;
+  
+  
 
   cout <<"****** Gestion d'une station de Velo ******\n";
   cout <<"--------------------------------------------\n";
   cout <<"Velos disponibles :20\n Point d'attache diponibles :20\n";
   cout <<"--------------------------------------------\n";
   cout<<"1. Emprunter un velo\n2. Restituer un velo\n3. Estimer le cout de la location\n4. Quitter l'application\n";
+  cout <<"Veuillez entrer le chiffre correspondant a votre choix :\n";
+  cin>>choix;
 
   return 0;
 }
